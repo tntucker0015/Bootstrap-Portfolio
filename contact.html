@@ -1,78 +1,91 @@
 <!-- Bootstrap Portfolio Homework #2 -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Tim Tucker Bootstrap Bio</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
-    </head>
+<html lang="en">
+
+<head>
+    <title>Tim Tucker Bootstrap Bio</title>
+    <meta charset="UT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
 <body>
-        <header>  
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#">Tim Tucker</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                      
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                          <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                              <a class="nav-link" href="index.html">About</a>
-                            </li>
-                            <li class="nav-item active">
-                              <a class="nav-link" href="contact.html">Contact<span class="sr-only"></span></span></a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link" href="porfolio.html">Portfolio</a>
-                              </li>
-                            </ul>
-                        </div>
-            </header>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <h1>Tim Tucker</h1>
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <div class="container">
-        <!-- main container in with contact forms -->
-        <h3>Contact:</h3>
-        <div class="container">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact<span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <br />
+                <!-- main container in with contact forms -->
+        <section class="container">
             <div class="row">
-            <div class="col-md-7">
-                <div class="form-group">
-                    <label for="usr">Name:</label>
-                    <input type="text" class="form-control" id="usr" placeholder="Billy Bob">
-                </div>
-                <div class="form-group">
-                    <label for="pwd">Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="email@email.com">
-                </div>
-                <div class="form-group">
+            <div class="col-md-8">
+                <h1>Contact</h1>
+                <hr />
+                <div class"row">
+                <div class="">
+                    <div class="form-group">
+                        <label for="usr">Name:</label>
+                        <input type="text" class="form-control" id="usr" placeholder="Billy Bob">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                    </div>
+                    <div class="form-group">
                     <label for="comment">Message:</label>
-                    <textarea class="form-control" rows="15" id="comment" placeholder="Send me a message"></textarea>
-                </div>
-                <input class="btn btn-secondary" type="submit" value="Submit">
-            </div>
-            <div class="conatianer" style="display:inline" > 
-                <div class="float-right" > 
-                <div class="col-md-3">
-           
-                <!-- Sidebar with links to social media -->
-                <h3>Connect With Me</div>
-                    <a href="https://github.com/tntucker0015" target="_blank" alt="GitHub">
-                        <img  class="thumbnail" src="images/if_github2_252065.png"></a>
-                    <a href="https://www.linkedin.com/in/tim-tucker/" alt="LinkedIN" target="_blank">
-                        <img class="thumbnail" src="images/if_square_linkedin_1374506.png" ></a>
-                    <a href="https://stackoverflow.com/users/9131653/tntucker?tab=profile" alt="Stackoverflow" target="_blank">
-                        <img class="thumbnail" src="images/if_overflow_386674.png" ></a>
+                        <textarea class="form-control" rows="15" id="comment" placeholder="Send me a message"></textarea>
+                    </div>
+                    <input class="btn btn-secondary" type="submit" value="Submit">
                 </div>
                 </div>
+            <section class="col-md-4"> 
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Connect With Me</div>
+                            <div class="card-body">
+                                <p class="card-text"> <a href="https://github.com/tntucker0015" target="_blank">
+                                    <img  class="thumbnail" src="images/if_github2_252065.png" alt="Github"></a>
+                                    <a href="https://www.linkedin.com/in/tim-tucker/" target="_blank">
+                                        <img class="thumbnail" src="images/if_square_linkedin_1374506.png" alt="Linked In" ></a>
+                                    <a href="https://stackoverflow.com/users/9131653/tntucker?tab=profile" target="_blank">
+                                        <img class="thumbnail" src="images/if_overflow_386674.png" alt="Stack overflow"></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-            </div>
-        </div>
+        </section>
 </body>
-<footer class="page-footer font-small #2e2e2e pt-4 mt-4">
+<footer>
+    <div class="page-footer font-small #2e2e2e pt-4 mt-4">
         <div class="footer-copyright py-3 text-center">
             <div class="container-fluid">
-                © 2015 Copyright: <img class="image-thumbnail" src="images/Logomakr_8L2lxQ.png"></a>
+                © 2015 Copyright:
+                <img class="image-thumbnail" id="logo" src="images/Logomakr_8L2lxQ.png" alt="tnt designs">
             </div>
         </div>
-    </footer>
-</html>
+    </div>
+</footer>
 

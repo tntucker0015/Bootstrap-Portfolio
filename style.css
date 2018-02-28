@@ -8,6 +8,11 @@ header {
     border-bottom: 3px;
     border-bottom-color: #4aaaa5;
 }
+.active {
+    background-color: grey;
+    color: #4aaaa5;
+}
+
 
 h3 {
     position:absolute;
