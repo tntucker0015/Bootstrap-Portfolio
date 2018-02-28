@@ -1,131 +1,114 @@
 <!-- Bootstrap Portfolio Homework #2 -->
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tim Tucker Bootstrap Bio</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
-    </head>
+
+<head>
+    <title>Tim Tucker Bootstrap Bio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type "text/css" href="style.css">
+</head>
 
 <body>
-    <header>  
-        <div class="container">
-                <div class="row">
-                    <span class="border-bottom border-info"></span>
-                  <div class="col-md-1 col-lg-1 col-xl-1" style="background-color:white"></div>
-                  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" style="background-color: #4aaaa5" >
-                    <h1 class="text-white">Tim Tucker</h1>
-                    </div>
-                <div class="col-md-3  col-lg-2 col-xl-2" style="background-color:white"></div>
-                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-3">
-                        <nav class="nav" style="background-color: #4aaaa5">
-                                <a class="nav-link active" href="index.html" target="_blank">About</a>
-                                <a class="nav-link" href="contact.html" target="_blank">Contact</a>
-                                <a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a>
-                              </nav>
-                  </div>
-                  <div class="col-md-3" style="background-color: white"
-                </div>
-              </div>
-        </header>
-    <!-- main container -->
     <div class="container">
-        <h3>Portfolio</h3>
-            <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <h1>Tim Tucker</h1>
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="porfolio.html">Portfolio
+                                <span class "sr-only"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </header>
+        <div class="Row"> <!-- content -->
+            <div class="col-md-7"><!-- Portfolio column -->
+                <div class="row"> <!-- portfolio name row -->
+                    <div class= "col-xs-12"><h2>Portfolio</h2></div>
+                    <hr />
+                </div>
                 <div class="row">
-                <div class="col-md-7">
-                    <!-- conatiner for cardecks -->
-                    <div class="container">
-                        <div class="row">
+                    <div class="card-deck">
+                        <div class="col-md-6">
+                            <div class="card">
+                              <img class="card-img" src="images/technics-q-c-200-200-1.jpg" alt="Card image">
+                              <div class="card-img-overlay">
+                                <p class="card-text"><h3>Games</h3></p>
+                              </div>
+                            </div>
+                        </div> 
+                        <div class="col-md-6">
+                                <div class="card">
+                                  <img class="card-img" src="images/technics-q-c-200-200-3.jpg" alt="Card image">
+                                  <div class="card-img-overlay">
+                                    <p class="card-text"><h3>Full Stack</h3></p>
+                                  </div>
+                                </div>
+                            </div> 
                             <div class="col-md-6">
-                                <div class="card-deck">
-                                <div class="card card-image image-thumbnail" style="background-image: url(images/technics-q-c-200-200-1.jpg);">
-                    
-                                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-                                    <div>
-                                        <h1 class="white-text"><i class="fa fa-pie-chart"></i> Games</h1>
+                                    <div class="card">
+                                      <img class="card-img" src="images/technics-q-c-200-200-4.jpg" alt="Card image">
+                                      <div class="card-img-overlay">
+                                        <p class="card-text"><h3>Front End</h3></p>
+                                      </div>
                                     </div>
-                                </div>
-                                </div>
-                                </div>
-                            </div>    
-                            <div class="col-md-6">
-                            <div class="card card-image" style="background-image: url(images/technics-q-c-200-200-3.jpg);">
-                    <!-- Content -->
-                                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-                                    <div>
-                                    <h1 class="white-text"><i class="fa fa-pie-chart"></i> FULL STACK</h1>
+                                </div> 
+                                <div class="col-md-6">
+                                        <div class="card">
+                                          <img class="card-img" src="images/technics-q-c-200-200-7.jpg" alt="Card image">
+                                          <div class="card-img-overlay">
+                                            <p class="card-text"><h3>Back End</h3></p>
+                                          </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="card-deck">
-                                    <div class="card card-image" style="background-image: url(images/technics-q-c-200-200-4.jpg);">
-                                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-                                    <div>
-                                        <h1 class="white-text"><i class="fa fa-pie-chart"></i> FRONT END</h1>
-                                    </div>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="card card-image" style="background-image: url(images/technics-q-c-200-200-7.jpg);">
-                                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">      
-                                <div>
-                                    <h1 class="white-text"><i class="fa fa-pie-chart"></i> BACK END</h1>
-                                </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row"> 
-                            <div class="col-md-6"> 
-                            <div class="card-deck">
-                                <div class="card card-image" style="background-image: url(images/technics-q-c-200-200-8.jpg);">
-                                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">  
-                                    <div>
-                                        <h1 class="white-text"><i class="fa fa-pie-chart"></i> Miscelanious</h1>
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>                                                           
-                        </div>
-                    </div>
-                
-            
-                <div class="conatianer" style="display:inline"> 
-                    <div class="float-right" > 
-                    <div class="col-md-3">
-                
-                    <!-- <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4"> -->
-                        <h3>Connect With Me</div>
-                                    <a href="https://github.com/tntucker0015" target="_blank" alt="GitHub">
-                                        <img  class="thumbnail" src="images/if_github2_252065.png"></a>
-                                    <a href="https://www.linkedin.com/in/tim-tucker/" alt="LinkedIN" target="_blank">
-                                        <img class="thumbnail" src="images/if_square_linkedin_1374506.png" ></a>
-                                    <a href="https://stackoverflow.com/users/9131653/tntucker?tab=profile" alt="Stackoverflow" target="_blank">
-                                        <img class="thumbnail" src="images/if_overflow_386674.png" ></a>
-                    </div>
+                                    <div class="col-md-6">
+                                            <div class="card">
+                                              <img class="card-img" src="images/technics-q-c-200-200-8.jpg" alt="Card image">
+                                              <div class="card-img-overlay">
+                                                <p class="card-text"><h3>Misc.</h3></p>
+                                              </div>
+                                            </div>
+                                        </div> 
                     </div>
                 </div>
-                </div>
-                </div>
-            </div>
-        </div>
-</body>
-
+            </div><!-- portfolio column -->
+            <div class="col-md-5" id="sidebar"><!-- connect with me colum -->
+                <div class="row"><!-- connect with me title-->
+                <div class="row"><!-- cwm links -->
+                    <div class="col-xs-4"><!--cwm link1-->
+                    </div><!-- cwm link 1 -->
+                    <div class="col-xs-4"><!-- cwm link2 -->
+                    </div><!-- cwm link2 -->
+                    <div class="col-xs-4"><!-- cwm link3 -->
+                    </div><!-- cwm link3 -->
+                </div><!-- cwm links -->
+                </div><!--connect with me title -->
+            </div><!-- connect with me column -->
+        </div><!-- content -->
+    </div><!-- container -->
 <footer class="page-footer font-small #2e2e2e pt-4 mt-4">
-        <div class="footer-copyright py-3 text-center">
-            <div class="container-fluid">
-                © 2015 Copyright: <img class="image-thumbnail" src="images/Logomakr_8L2lxQ.png"></a>
-            </div>
+    <div class="footer-copyright py-3 text-center">
+        <div class="container-fluid">
+            © 2015 Copyright:
+            <img class="image-thumbnail" id="logo" src="images/Logomakr_8L2lxQ.png">
+            </a>
         </div>
-    </footer>
-</html>
+    </div>
+</footer>
 
+</html>

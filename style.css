@@ -1,4 +1,45 @@
-.nav {
-    padding-left: 0px;
+
+body {
+    background-image: url(images/skyscraper.png);
+}
+
+header {
+    background-color: white;
+    border-bottom: 3px;
+    border-bottom-color: #4aaaa5;
+}
+
+h3 {
+    position:absolute;
+    bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.navbar-nav {
+    background-color: #4aaaa5;
+    color:white;
+    padding-top: 0px;
     padding-bottom: 0px;
+    margin: 0px;
+    
+}
+
+footer {
+    padding: 0px;
+    border-top: 5px;
+    border-top-color: #4aaaa5;
+    background-color: grey;
+}
+#logo {
+    height:40px;
+    width: 100px;
 }
