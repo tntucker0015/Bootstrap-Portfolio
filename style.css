@@ -13,6 +13,9 @@ header {
     color: #4aaaa5;
 }
 
+.card-deck {
+    margin-right: 0px;
+}
 
 h3 {
     position:absolute;
