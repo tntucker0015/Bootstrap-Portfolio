@@ -4,7 +4,7 @@
 
 <head>
     <title>Tim Tucker Bootstrap Bio</title>
-    <meta charset="UT-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -13,7 +13,8 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><h1 class="display-4 strong">Tim Tucker</h1>
+            <a class="navbar-brand" href="#">
+                <h1 class="display-4 strong">Tim Tucker</h1>
             </a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -26,9 +27,10 @@
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact<span class="sr-only"></span>
+                        <a class="nav-link" href="contact.html">Contact
+                            <span class="sr-only"></span>
                         </a>
-                        </li>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
@@ -37,52 +39,58 @@
         </nav>
     </header>
 
-        <br />
-                <!-- main container in with contact forms -->
-        <section class="container">
-            <div class="row">
-                <div class="col-md-8" id="contact">
-                    <h1>Contact</h1>
-                    <hr />
-                <div class"row">
-                    <div class="">
-                        <div class="form-group">
-                            <label for="usr">Name:</label>
-                            <input type="text" class="form-control" id="usr" placeholder="Billy Bob">
-                        </div>
-                        <div class="form-group">
-                            <label for="pwd">Email:</label>
-                            <input type="email" class="form-control" id="email" placeholder="email@email.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="comment">Message:</label>
-                            <textarea class="form-control" rows="15" id="comment" placeholder="Send me a message"></textarea>
-                        </div>
-                        <input class="btn btn-secondary" type="submit" value="Submit">
+    <br />
+    <!-- main container in with contact forms -->
+    <section class="container">
+        <div class="row">
+            <div class="col-md-8" id="contact">
+                <h1>Contact</h1>
+                <hr />
+                <div class="">
+                    <div class="form-group">
+                        <label for="usr">Name:</label>
+                        <input type="text" class="form-control" id="usr" placeholder="Billy Bob">
                     </div>
-                </div>
-                </div>
-                <br />
-                <section class="col-md-4"> 
-                    <div class="card border-light mb-3" style="max-width: 18rem;">
-                        <div class="card-header"><strong>Connect With Me</strong></div>
-                            <div class="card-body">
-                                <p class="card-text"> <a href="https://github.com/tntucker0015" target="_blank">
-                                    <img  class="thumbnail" src="images/if_github2_252065.png" alt="Github"></a>
-                                    <a href="https://www.linkedin.com/in/tim-tucker/" target="_blank">
-                                        <img class="thumbnail" src="images/if_square_linkedin_1374506.png" alt="Linked In" ></a>
-                                    <a href="https://stackoverflow.com/users/9131653/tntucker?tab=profile" target="_blank">
-                                        <img class="thumbnail" src="images/if_overflow_386674.png" alt="Stack overflow"></a>
-                                </p>
-                            </div>
-                        </div>
+                    <div class="form-group">
+                        <label for="pwd">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="email@email.com">
                     </div>
-                </section>
+                    <div class="form-group">
+                        <label for="comment">Message:</label>
+                        <textarea class="form-control" rows="15" id="comment" placeholder="Send me a message"></textarea>
+                    </div>
+                    <input class="btn btn-secondary" type="submit" value="Submit">
+                </div>
             </div>
-        </section>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <br />
+            <section class="col-md-4">
+                <div class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header">
+                        <strong>Connect With Me</strong>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <a href="https://github.com/tntucker0015" target="_blank">
+                                <img class="thumbnail" src="images/if_github2_252065.png" alt="Github">
+                            </a>
+                            <a href="https://www.linkedin.com/in/tim-tucker/" target="_blank">
+                                <img class="thumbnail" src="images/if_square_linkedin_1374506.png" alt="Linked In">
+                            </a>
+                            <a href="https://stackoverflow.com/users/9131653/tntucker?tab=profile" target="_blank">
+                                <img class="thumbnail" src="images/if_overflow_386674.png" alt="Stack overflow">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 <br />
 <footer>
@@ -96,3 +104,4 @@
     </div>
 </footer>
 
+</html>
