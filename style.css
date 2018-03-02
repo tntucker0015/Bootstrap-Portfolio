@@ -6,30 +6,27 @@ body {
 header {
     background-color: white;
     border-bottom: solid #4aaaa5 3px;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5px;
+}
+
+.card-header, .card-text {
+    text-align:center;
+}
+
+.card-img-overlay {
+    padding: 0px;
 }
 
 .active {
     background-color: grey;
-    color: #4aaaa5;
 }
 
-#about-tim, #contact, #potfolio {
+#about-tim, #contact, #portfolio {
     background-color:#fff;
     padding-bottom: 10px;
-}
-
-#timpic {
-    max-width: 200px;
-    max-height: 200px;
-}
-
-#portfolio {
-    background-color: #fff;
-    padding-bottom: 10px;
+    border: none;
 }
 
 .portfolio {
@@ -47,19 +44,31 @@ h3 {
     text-align: center;
 }
 
+.navbar {
+    padding: 0px;
+}
 .navbar-brand {
     background-color: #4aaaa5;
-    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .navbar-nav {
     background-color: #4aaaa5;
-    color:white;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin: 0px;
-    
+    font-size: larger;
+    line-height: 2.5em;
+    padding: 10px;
 }
+
+.nav-item {
+    color: #4aaaa5;
+    transition: 2s;
+}
+
+.nav-item:hover {
+    background-color: white;
+}
+
 
 footer {
     background-color: grey;
