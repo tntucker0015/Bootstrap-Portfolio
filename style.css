@@ -2,7 +2,7 @@
 body {
     background-image: url(images/skyscraper.png);
 }
-
+/* contains name and navbar */
 header {
     background-color: white;
     border-bottom: solid #4aaaa5 3px;
@@ -11,18 +11,22 @@ header {
     margin-bottom: 5px;
 }
 
+/* for image cards on portfolio page */
 .card-header, .card-text {
     text-align:center;
 }
 
+/* for text on images on portfolio page */
 .card-img-overlay {
     padding: 0px;
 }
 
+/* avtive page in navbar */
 .active {
     background-color: grey;
 }
 
+/* main content box on all pages */
 #about-tim, #contact, #portfolio {
     background-color:#fff;
     padding-bottom: 10px;
@@ -30,6 +34,7 @@ header {
     border: none;
 }
 
+/* form on contact page */
 .form-group {
     width: 100%;
 }
@@ -49,6 +54,7 @@ h3 {
     text-align: center;
 }
 
+/* all nav is in header */
 .navbar {
     padding: 0px;
 }
@@ -82,6 +88,7 @@ footer {
     padding-top: 0px;
 }
 
+/* inside footer */
 #logo {
     height:40px;
     width: 100px;
